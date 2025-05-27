@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/rahulkandwal19.github.io/static/css/main.6ac5049a.css",
-    "main.js": "/rahulkandwal19.github.io/static/js/main.fe90b183.js",
-    "static/media/Montserrat-Regular.ttf": "/rahulkandwal19.github.io/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/CiscoNetworkAcademy.png": "/rahulkandwal19.github.io/static/media/CiscoNetworkAcademy.d2e9d2c2f16ead30f9ca.png",
-    "static/media/gehuLogo.png": "/rahulkandwal19.github.io/static/media/gehuLogo.796918de2af50ea09fd5.png",
-    "static/media/iirs.png": "/rahulkandwal19.github.io/static/media/iirs.8da5155d97a9cbd05207.png",
-    "static/media/Agustina.woff": "/rahulkandwal19.github.io/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/IBM.png": "/rahulkandwal19.github.io/static/media/IBM.13508d182385693fa5dd.png",
-    "static/media/davSchool.png": "/rahulkandwal19.github.io/static/media/davSchool.12e0f7e1e9f762a28cdc.png",
-    "static/media/RahulKandwal_Resume.pdf": "/rahulkandwal19.github.io/static/media/RahulKandwal_Resume.41ac04ebf2616bf942e6.pdf",
-    "static/media/manOnTable.svg": "/rahulkandwal19.github.io/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
-    "static/media/developerActivity.svg": "/rahulkandwal19.github.io/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "index.html": "/rahulkandwal19.github.io/index.html",
-    "main.6ac5049a.css.map": "/rahulkandwal19.github.io/static/css/main.6ac5049a.css.map",
-    "main.fe90b183.js.map": "/rahulkandwal19.github.io/static/js/main.fe90b183.js.map"
+    "main.css": "/static/css/main.65db949b.css",
+    "main.js": "/static/js/main.f6fb2e22.js",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/CiscoNetworkAcademy.png": "/static/media/CiscoNetworkAcademy.d2e9d2c2f16ead30f9ca.png",
+    "static/media/gehuLogo.png": "/static/media/gehuLogo.796918de2af50ea09fd5.png",
+    "static/media/iirs.png": "/static/media/iirs.8da5155d97a9cbd05207.png",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/IBM.png": "/static/media/IBM.13508d182385693fa5dd.png",
+    "static/media/davSchool.png": "/static/media/davSchool.12e0f7e1e9f762a28cdc.png",
+    "static/media/RahulKandwal_Resume.pdf": "/static/media/RahulKandwal_Resume.41ac04ebf2616bf942e6.pdf",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "index.html": "/index.html",
+    "main.65db949b.css.map": "/static/css/main.65db949b.css.map",
+    "main.f6fb2e22.js.map": "/static/js/main.f6fb2e22.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ac5049a.css",
-    "static/js/main.fe90b183.js"
+    "static/css/main.65db949b.css",
+    "static/js/main.f6fb2e22.js"
   ]
 }
