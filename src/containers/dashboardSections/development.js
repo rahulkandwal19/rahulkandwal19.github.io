@@ -21,7 +21,7 @@ export default function Development() {
             <div className="github-grid-container">
               <div className="cpDSA-grid-item">
                 <img
-                    src={"https://leetcard.jacoblin.cool/rahulkandwal19?theme="+lctheme+"&font=Alice&ext=activity"}></img>
+                    src={"https://leetcard.jacoblin.cool/rahulkandwal19?theme="+lctheme+"&font=Alice&ext=contest"}></img>
               </div>
               <div className="cpDSA-grid-item">
                 <img src={"https://codeforces-readme-stats.vercel.app/api/card?username=rahulkandwal19&theme="+cftheme+"&disable_animations=false&show_icons=true&force_username=true"}></img>

@@ -42,9 +42,7 @@ const socialMediaLinks = {
   medium:"",
   discord:"https://discord.com/users/rahulkandwal19",
   reserchGate:"",
-  //and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true
 };
 
 // Skills Section
@@ -92,13 +90,13 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-python"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true, 
   schools: [
     {
       schoolName: "Graphic Era Hill University",
@@ -304,16 +302,16 @@ const projectList = {
           fontAwesomeClassname: "fas fa-fire"
         },
         {
-          skillName: "Flask",
+          skillName: "Python",
           fontAwesomeClassname: "fa-brands fa-python"
         },
 
       ],
     },
     {
-      title: "MutualFund Recommendation Platform",
-      subtitle: "Provides best suitable plans according to return expectations and risk input. It uses K-Negibour to select suitable funds",
-      url: "",
+      title: "Find My Fund",
+      subtitle: "Provides recommendation of best available Mutual Funds as per user return expetations using K-Nearest Negibours",
+      url: "https://github.com/rahulkandwal19/Find-My-Fund",
       technology: [
         {
           skillName: "HTML",
@@ -328,7 +326,7 @@ const projectList = {
           fontAwesomeClassname: "fa-brands fa-js"
         },
         {
-          skillName: "Flask",
+          skillName: "Python",
           fontAwesomeClassname: "fa-brands fa-python"
         },
       ],
@@ -336,7 +334,7 @@ const projectList = {
     {
       title: "Gunshot Detection System",
       subtitle:"An Esp-32 based acoustic gunshot detection system with decision tree edge model and a CNN model on cloud",
-      url: "",
+      url: "https://github.com/rachitbangwal/GSonix-GunshotDetectionSystem",
       technology: [
         {
           skillName: "C++",
@@ -349,6 +347,52 @@ const projectList = {
         {
           skillName: "ESP-32",
           fontAwesomeClassname: "fa-solid fa-microchip"
+        },
+      ],
+    },
+    {
+      title: "genomo",
+      subtitle: "Algorithemic Design to Model Zoonosis on Graph Data Structure and Optimize complexities for real world usage",
+      url: "https://github.com/rahulkandwal19/genomo",
+      technology: [
+        {
+          skillName: "HTML",
+          fontAwesomeClassname: "fa-brands fa-html5"
+        },
+        {
+          skillName: "CSS",
+          fontAwesomeClassname: "fa-brands fa-css3"
+        },
+        {
+          skillName: "JS",
+          fontAwesomeClassname: "fa-brands fa-js"
+        },
+        {
+          skillName: "C++/CPP",
+          fontAwesomeClassname: "fa-brands fa-c"
+        },
+      ],
+    },
+    {
+      title: "QDo",
+      subtitle: "Quantum Computing Learning Platform minimizing learning curve with circuit simulation, Gamification and GenAI",
+      url: "https://github.com/rahulkandwal19/qdo",
+      technology: [
+        {
+          skillName: "HTML",
+          fontAwesomeClassname: "fa-brands fa-html5"
+        },
+        {
+          skillName: "CSS",
+          fontAwesomeClassname: "fa-brands fa-css3"
+        },
+        {
+          skillName: "JS",
+          fontAwesomeClassname: "fa-brands fa-js"
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "fa-brands fa-python"
         },
       ],
     },

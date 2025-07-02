@@ -2,6 +2,9 @@
 Certain colors are used for different and multiply types of elements. 
 For greater control over colors visit each components .scss file. */
 
+$lightBackground: white;
+$darkBackground:black;
+
 // button colors
 $buttonColor: #55198b;
 $buttonHover: #8c43ce;
@@ -80,11 +83,11 @@ $appLink: #09d3ac;
 // social media icons
 $faceBook: #3b5998;
 $linkedin: #0e76a8;
-$github: #333;
+$github: #111111;
 $gitlab: #fca326;
 $google: #ea4335;
 $twitter: #1da1f2;
 $medium: #000;
 $stackoverflow: #f48024;
-$instagram: #c13584;
-$kaggle: #20beff;
+$instagram: #3f3f3f;
+$kaggle: #4a5156;
