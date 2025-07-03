@@ -14,7 +14,7 @@ export default function Development() {
   let lctheme = isDark? "dark":"light";
   return (
       <Fade bottom duration={1000} distance="20px">
-
+        {/*
         <div className="main contact-margin-top" id="contact">
           <h1 className={isDark ? "dark-mode contact-title" : "contact-title"}>PROGRAMING</h1>
           <div className="contact-div-main">
@@ -29,7 +29,7 @@ export default function Development() {
             </div>
           </div>
         </div>
-
+        */}
 
         <div className="main contact-margin-top" id="contact">
           <h1 className={isDark ? "dark-mode contact-title" : "contact-title"}>DEVELOPMENT</h1>

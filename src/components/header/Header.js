@@ -44,13 +44,16 @@ function Header() {
               <a>Projects</a>
             </li>
 
+            {/*
             <li className={"button"} onClick={() => history.push("/research")}>
               <a>Research</a>
             </li>
+            
 
             <li className={"button"} onClick={() => history.push("/blogs")}>
               <a>Blog</a>
             </li>
+            */}
           <li>
             <a>
               <ToggleSwitch />
