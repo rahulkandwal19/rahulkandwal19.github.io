@@ -27,7 +27,7 @@ const greeting = {
       " internship"
   ),
   resumeLink:
-    "./RahulKandwal_Resume.pdf", // Set to empty to hide the button
+    "./Resume_RahulKandwal.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
