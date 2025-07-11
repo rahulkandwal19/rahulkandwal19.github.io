@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.65db949b.css",
-    "main.js": "/static/js/main.eaa3df53.js",
+    "main.js": "/static/js/main.554a3c5c.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/CiscoNetworkAcademy.png": "/static/media/CiscoNetworkAcademy.d2e9d2c2f16ead30f9ca.png",
     "static/media/gehuLogo.png": "/static/media/gehuLogo.796918de2af50ea09fd5.png",
@@ -14,10 +14,10 @@
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "index.html": "/index.html",
     "main.65db949b.css.map": "/static/css/main.65db949b.css.map",
-    "main.eaa3df53.js.map": "/static/js/main.eaa3df53.js.map"
+    "main.554a3c5c.js.map": "/static/js/main.554a3c5c.js.map"
   },
   "entrypoints": [
     "static/css/main.65db949b.css",
-    "static/js/main.eaa3df53.js"
+    "static/js/main.554a3c5c.js"
   ]
 }
