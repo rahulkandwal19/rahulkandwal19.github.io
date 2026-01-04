@@ -5,7 +5,10 @@
   max-height: 100px;
 }
 
-/* header */
+.dark-mode{
+  color: $textColorDark !important;
+}
+
 
 .dark-menu {
   background-color: $darkBackground !important;

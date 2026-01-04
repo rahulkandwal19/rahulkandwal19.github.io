@@ -23,11 +23,11 @@ const greeting = {
   username: "Rahul Kandwal",
   title: "Hi, I am\nRahul Kandwal",
   subTitle: emoji(
-    "A second-year engineering student with good academics and a deep passion for technology, seeking an\n" +
+    "A third-year engineering student with a deep passion for technology, seeking an\n" +
       " internship"
   ),
   resumeLink:
-    "./Resume_RahulKandwal.pdf", // Set to empty to hide the button
+    "./RahulKandwalRESUME.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -183,14 +183,14 @@ const contactInfo = {
 
 const researchSection = {
   title: "Research Profile",
-  subTitle: "A newbie, Exploring topics around science and technology majorly in engineering and its applicative areas" +
+  subTitle: "A newbie, Exploring topics around science and technology majorly in computer engineering and its applicative areas" +
             "",
   skills: [
     emoji(
         "I am interested in following domains but not limited to - Machine Learning, IoT Systems, bioinformatics and other related CS topics"
     ),
     emoji(
-        "⚡ Currently working on an edge acoustic deep learning model"
+        "⚡ Currently working on Finance Optimization with QUANTUM Computing using Qiskit and IBM Quantum"
     ),
     emoji(
         "⚡ Available for discussion"
@@ -214,7 +214,7 @@ const researchSection = {
     }
     */
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 
@@ -222,31 +222,25 @@ const publicationsSection = {
   title: "Publications",
   subtitle:
       ".",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "true", 
   blogs: [
     {
-      url: "h",
-      title: "Feature Selection for Audio Deep Learning",
+      url: "https://search.ipindia.gov.in/IPOJournal/Journal/ViewJournal?"+
+           "FileName=ipo-docs%5CIPIndia_Docs%5CPAT%5C2026%5C01_2026%5COfficial%20Journal%"+
+           "20(1-2026)%2002.01.2026%201st%20docx.pdf#page=19",
+      title: "Patent : Gun Sound Detection & Localization System using ESP32",
       description:
-          "Study finds suitable features for training deep learning models",
-      date: "In Progress"
+          "Patent Published in IPO Journal 1/2026 Dated 02 January 2026 Part-1 Page Number 19",
+      date: "02 January 2026"
     },
     {
       url: "",
-      title: "Publication is Not Available",
-      description:
-          "Either unavailable or link is broken. Try fixing the site url",
-      date: "N/A"
-    },
-    {
-      url: "",
-      title: "Publication is Not Available",
-      description:
-          "Either unavailable or link is broken. Try fixing the site url",
-      date: "N/A"
-    },
+      title: "Finance Optimization using Quantum Methods",
+      description: "Quantum Computing to solve NP-HARD Problems in Finance",
+      date: "Currently Working"
+    }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 
@@ -306,6 +300,33 @@ const projectList = {
           fontAwesomeClassname: "fa-brands fa-python"
         },
 
+      ],
+    },
+    {
+      title: "Sagar AI",
+      subtitle: "Prompt Interface for Smart Information Retrival For Ocenographic Studies Using LLM with multi-threading and LLM instance pools",
+      url: "https://github.com/TechTrekkers-GEHU/sagar-ai",
+      technology: [
+        {
+          skillName: "HTML",
+          fontAwesomeClassname: "fa-brands fa-html5"
+        },
+        {
+          skillName: "CSS",
+          fontAwesomeClassname: "fa-brands fa-css3"
+        },
+        {
+          skillName: "JS",
+          fontAwesomeClassname: "fa-brands fa-js"
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "fa-brands fa-python"
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "fa-brands fa-docker"
+        },
       ],
     },
     {

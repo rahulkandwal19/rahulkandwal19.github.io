@@ -6,6 +6,7 @@
   margin: 0px auto;
   margin-top: 4rem;
 }
+
 .greet-main {
   width: 90%;
   padding: 20px 10px;
@@ -17,12 +18,18 @@
   display: flex;
 }
 
-.subTitle {
-  color: $subTitle !important;
+.greeting-text {
+  font-size: 70px;
+  line-height: 1.1;
+  color: $textColor !important;
 }
 
-.greeting-main {
-  display: flex;
+.dark-mode.greeting-text {
+  color: $textColorDark !important;
+}
+
+.subTitle {
+  color: $subTitle !important;
 }
 
 .greeting-main > * {
@@ -36,10 +43,24 @@
 
 .button-greeting-div {
   display: flex;
+  gap: 0.1rem;             
   margin-top: 40px;
+  flex-wrap: wrap;       
 }
+
 .download-link-button {
   text-decoration: none;
+}
+
+
+.button-greeting-div button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  min-width: 150px;  
+  text-align: center;
 }
 
 .greeting-text {
@@ -58,39 +79,7 @@
   height: auto;
 }
 
-.wave-emoji {
-  animation-duration: 1.8s;
-  animation-iteration-count: infinite;
-  animation-name: wave;
-  display: inline-block;
-  transform-origin: 70% 70%;
-}
 
-@keyframes wave {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(-10deg);
-  }
-  20% {
-    transform: rotate(12deg);
-  }
-  30% {
-    transform: rotate(-10deg);
-  }
-  40% {
-    transform: rotate(9deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-/* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
     font-size: 50px;
@@ -99,9 +88,12 @@
     font-size: 20px;
   }
 }
+
 @media (max-width: 768px) {
   .button-greeting-div {
-    justify-content: space-around;
+    flex-direction: column; 
+    align-items: center;
+    gap: 0.1rem;
   }
   .greeting-text {
     font-size: 30px;
@@ -117,11 +109,5 @@
   }
   .greeting-image-div {
     height: 256px;
-  }
-}
-
-@media (max-width: 320px) {
-  .main {
-    width: auto;
   }
 }

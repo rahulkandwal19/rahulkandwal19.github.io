@@ -11,6 +11,7 @@
   margin: 0px;
   margin-bottom: 50px;
 }
+
 .subTitle {
   color: $subTitle;
 }
@@ -32,3 +33,9 @@
     text-align: center;
   }
 }
+
+
+.dark-mode{
+  color: $textColorDark !important;
+}
+
