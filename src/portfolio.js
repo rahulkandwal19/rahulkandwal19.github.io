@@ -23,8 +23,8 @@ const greeting = {
   username: "Rahul Kandwal",
   title: "Hi, I am\nRahul Kandwal",
   subTitle: emoji(
-    "A third-year engineering student with a deep passion for technology, seeking an\n" +
-      " internship"
+    "A third-year bachelors student in Department of Computer Engineering, GEHU \n with a deep passion for technology, Open to " +
+    "any possible opportunity for me."
   ),
   resumeLink:
     "./RahulKandwalRESUME.pdf", // Set to empty to hide the button
@@ -201,18 +201,16 @@ const researchSection = {
   ],
 
   profile: [
-    /*
+    {
+      skillName: "ORC ID",
+      fontAwesomeClassname: "fa-brands fa-orcid",
+      url:"https://orcid.org/0009-0005-1760-0058"
+    },
     {
       skillName: "ResearchGate",
       fontAwesomeClassname: "fa-brands fa-researchgate",
       url:""
-    },
-    {
-      skillName: "Google Scolar",
-      fontAwesomeClassname: "fa-brands fa-google",
-      url:""
     }
-    */
   ],
   display: true
 };
@@ -220,8 +218,7 @@ const researchSection = {
 
 const publicationsSection = {
   title: "Publications",
-  subtitle:
-      ".",
+  subtitle:"My published research and development works across domains and technologies comprising of reserch papers and intectuall property",
   displayMediumBlogs: "true", 
   blogs: [
     {

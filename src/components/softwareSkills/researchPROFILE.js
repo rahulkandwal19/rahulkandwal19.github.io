@@ -9,14 +9,16 @@ export default function ResearchProfile() {
         <ul className="dev-icons">
           {researchSection.profile.map((skills, i) => {
             return (
+              <a href={skills.url}>
               <li
                 key={i}
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                <i className={skills.fontAwesomeClassname}></i>
-                <p>{skills.skillName}</p>
+                    <i className={skills.fontAwesomeClassname}></i>
+                    <p>{skills.skillName}</p>
               </li>
+              </a>
             );
           })}
         </ul>
