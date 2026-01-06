@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.45bc0e39.css",
-    "main.js": "/static/js/main.bbff9bbe.js",
+    "main.css": "/static/css/main.b4753605.css",
+    "main.js": "/static/js/main.e6b1a07c.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/CiscoNetworkAcademy.png": "/static/media/CiscoNetworkAcademy.d2e9d2c2f16ead30f9ca.png",
     "static/media/gehuLogo.png": "/static/media/gehuLogo.796918de2af50ea09fd5.png",
@@ -13,11 +13,11 @@
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "index.html": "/index.html",
-    "main.45bc0e39.css.map": "/static/css/main.45bc0e39.css.map",
-    "main.bbff9bbe.js.map": "/static/js/main.bbff9bbe.js.map"
+    "main.b4753605.css.map": "/static/css/main.b4753605.css.map",
+    "main.e6b1a07c.js.map": "/static/js/main.e6b1a07c.js.map"
   },
   "entrypoints": [
-    "static/css/main.45bc0e39.css",
-    "static/js/main.bbff9bbe.js"
+    "static/css/main.b4753605.css",
+    "static/js/main.e6b1a07c.js"
   ]
 }
